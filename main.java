@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class TicTacGo {
+class TicTacToe {
 
     static int game_count = 0;
 

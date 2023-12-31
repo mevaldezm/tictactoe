@@ -1,7 +1,7 @@
 import java.util.Random;
 
 enum Mark {
-    
+
     EMPTY(' '),
     NOUGHT('O'),
     CROSS('X');
@@ -26,14 +26,12 @@ enum Winner {
     USER,
     DRAW
 }
-
 class GameOptions {
 
     public char userMark;
     public char gameMark;
     public char starter;
 }
-
 class TicTac {
 
     private Mark[][] grid;
@@ -45,7 +43,6 @@ class TicTac {
     public static final int COLS = 3;
     public static final int CELLS = 9;
     //
-
     public TicTac() {
 
         grid = new Mark[ROWS][COLS];
